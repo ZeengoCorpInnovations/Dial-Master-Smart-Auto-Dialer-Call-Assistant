@@ -6,41 +6,6 @@ Support: support@dialmaster.in
 Website: https://www.Dialmaster.in
 Developer email: abhishek.rajput7026@gmail.com
 
-----------------------------------------------------------------------
-TABLE OF CONTENTS
-----------------------------------------------------------------------
-
-PART A — PRIVACY POLICY (COMPLETE, PROFESSIONAL)
-1. Introduction & Scope
-2. App Identity, Purpose & Scope of Processing
-3. Definitions
-4. Data We Collect (Detailed)
-5. Data We Do NOT Collect (Assurances)
-6. Legal Bases for Processing
-7. How We Use Your Data
-8. Advertising, Mediation, Header‑Bidding & RTB
-9. Third‑Party Services and SDKs
-10. Local Data (Device‑only) – Room DB
-11. Data Retention
-12. Data Sharing & International Transfers
-13. Security Measures
-14. User Rights & How to Exercise Them
-15. Children’s Privacy
-16. Cookies, Tracking & Advertising Identifiers
-17. Purchases, Subscriptions & Billing
-18. Rewards, Coins & Fraud Prevention
-19. Account Deletion, Data Export & Portability
-20. Dispute Resolution & Governing Law
-21. Amendments to This Policy
-22. Contact Information
-
-PART B — LEGAL DOCUMENTS CHECKLIST (TEXT)
-(Complete checklist you can use to verify before publishing)
-
-----------------------------------------------------------------------
-PART A — PRIVACY POLICY
-----------------------------------------------------------------------
-
 1. INTRODUCTION & SCOPE
 DialMaster – Smart Auto Dialer & Call Assistant (“DialMaster”, “App”, “we”, “us”, “our”) is designed to help users organize outbound calling workflows and launch calls using the device’s native dialer (ACTION_DIAL). DialMaster intentionally collects minimal personal data and treats all user contact lists, call notes, and call outcomes as local, device‑only data unless explicitly stated otherwise. This Privacy Policy explains what information we collect, how we use it, with whom we share it, and the choices you have about your information.
 
