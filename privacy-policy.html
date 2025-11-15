@@ -1,5 +1,4 @@
-# Writing a detailed, clean HTML privacy policy file for DialMaster
-html_content = r"""<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -213,7 +212,7 @@ html_content = r"""<!doctype html>
           <li>Google Ad Manager (GAM)</li>
           <li>AppLovin MAX (mediation)</li>
           <li>Prebid Mobile (header‑bidding)</li>
-          <li>Demand partners (AppLovin, Unity Ads, ironSource, InMobi, PubMatic, Smaato, Vungle, Playwire)</li>
+          <li>Demand partners / DSPs (AppLovin, Unity Ads, ironSource, InMobi, PubMatic, Smaato, Vungle, Playwire)</li>
           <li>RevenueCat (iOS subscription management)</li>
           <li>Other analytics and fraud prevention providers</li>
         </ul>
@@ -366,11 +365,3 @@ html_content = r"""<!doctype html>
   </div>
 </body>
 </html>
-"""
-
-# Write the HTML file to /mnt/data and confirm path
-file_path = "/mnt/data/DialMaster_PrivacyPolicy.html"
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(html_content)
-
-print("Created HTML file at:", file_path)
