@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DialMaster — Auto Dialer CRM</title>
+  <meta name="description" content="DialMaster — Auto Dialer CRM. Uses Google Sign-In (openid, email, profile) only for secure authentication. Privacy Policy & Terms linked." />
+
+  <!-- Google site verification: already provided -->
+  <meta name="google-site-verification" content="EKVt6evnz8oKQzh7LSYQ3p-3wPsdqXRa6pRVglHF32g" />
+
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    :root{
+      --bg:#f6fbff; --card:#ffffff; --muted:#58606a; --accent:#0a66c2; --accent-2:#2b8bd3;
+      --maxw:1060px; --radius:12px;
+    }
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; margin:0; background:var(--bg); color:#042029}
+    .wrap{max-width:var(--maxw); margin:32px auto; padding:20px}
+    header{display:flex;gap:18px;align-items:center}
+    .logo{width:68px;height:68px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:22px}
+    h1{margin:0;font-size:24px}
+    .lead{color:var(--muted);margin-top:6px}
+    .card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 8px 30px rgba(8,18,26,0.06);margin-top:18px}
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:18px}
+    .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-ghost{display:inline-block;border:1px solid #d8eaf8;color:var(--accent);padding:9px 12px;border-radius:10px;text-decoration:none;font-weight:700;background:#fff}
+    table{width:100%;border-collapse:collapse;margin-top:8px}
+    table th, table td{padding:8px;border:1px solid #eef7fc;text-align:left}
+    footer{color:var(--muted);font-size:13px;margin-top:18px}
+    .muted{color:var(--muted)}
+    @media (max-width:880px){.grid{grid-template-columns:1fr} .logo{width:56px;height:56px}}
+    code{background:#f2f9ff;padding:2px 6px;border-radius:6px;font-family:monospace}
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"DialMaster – Auto Dialer CRM",
+    "url":"https://zeengocorpinnovations.github.io/Dial-Master-Smart-Auto-Dialer-Call-Assistant/",
+    "applicationCategory":"BusinessApplication",
+    "author":{"@type":"Organization","name":"ZeengoCorp / Abhishek Rajput"},
+    "description":"DialMaster opens your device dialer to run calling workflows. Uses Google Sign-In (openid, email, profile) only for authentication."
+  }
+  </script>
+</head>
+<body>
+  <main class="wrap" role="main" aria-labelledby="app-title">
+    <header>
+      <div class="logo" aria-hidden="true">DM</div>
+      <div>
+        <h1 id="app-title">DialMaster — Auto Dialer CRM</h1>
+        <div class="lead">A privacy-first auto-dialer assistant for sales teams — imports contacts, opens the device dialer, and stores user data locally by default.</div>
+        <div style="margin-top:10px;display:flex;gap:10px;align-items:center">
+          <a class="btn" href="#oauth">OAuth & Data</a>
+          <a class="btn-ghost" href="https://zeengocorpinnovations.github.io/Dial-Master-Smart-Auto-Dialer-Call-Assistant/privacy-policy.html" target="_blank">Privacy Policy</a>
+          <a class="btn-ghost" href="https://zeengocorpinnovations.github.io/Dial-Master-Smart-Auto-Dialer-Call-Assistant/Terms&Conditions.html" target="_blank">Terms & Conditions</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="card" id="summary" aria-label="Summary">
+      <h2 style="margin:0 0 8px">What DialMaster does (short)</h2>
+      <p class="muted" style="margin:0 0 10px">
+        Import contacts (.csv/.xlsx) or paste numbers, map fields, then run a calling session — each call opens the phone's native dialer (ACTION_DIAL). After each call, record outcome & notes. Local storage by default; encrypted cloud backup is opt-in.
+      </p>
+
+      <div class="grid" style="margin-top:12px">
+        <div>
+          <h3 id="oauth">OAuth – exactly what we request</h3>
+          <p class="muted" style="margin:6px 0 8px"><strong>Requested scopes (explicit):</strong></p>
+
+          <table aria-labelledby="oauth">
+            <thead><tr><th>Scope</th><th>Why we request it</th></tr></thead>
+            <tbody>
+              <tr><td><code>openid</code></td><td>Secure authentication and unique identifier (required).</td></tr>
+              <tr><td><code>email</code></td><td>Link account to purchases, subscriptions and support.</td></tr>
+              <tr><td><code>profile</code></td><td>Show user's name and avatar in the app (UX only).</td></tr>
+            </tbody>
+          </table>
+
+          <p class="muted" style="margin-top:12px"><strong>Important reviewer note:</strong> DialMaster <em>does not</em> request Gmail, Google Contacts uploading, Google Drive, or other restricted scopes. There is no call recording, no automated call log uploads, and no background audio capture.</p>
+
+          <h4 style="margin-top:12px">Proof for reviewers</h4>
+          <ul style="margin:8px 0 0 18px" class="muted">
+            <li>Privacy Policy: <a href="https://zeengocorpinnovations.github.io/Dial-Master-Smart-Auto-Dialer-Call-Assistant/privacy-policy.html" target="_blank">privacy-policy.html</a></li>
+            <li>Terms & Conditions: <a href="https://zeengocorpinnovations.github.io/Dial-Master-Smart-Auto-Dialer-Call-Assistant/Terms&Conditions.html" target="_blank">Terms&Conditions.html</a></li>
+            <li>Data Safety summary (local storage vs server): available on request for review. :contentReference[oaicite:0]{index=0}</li>
+          </ul>
+
+          <p style="margin-top:12px" class="muted"><strong>Demo for reviewers (recommended):</strong> an unlisted YouTube embed that shows: app launch → Google Sign-in → login success → import → start a session → show home screen. Embed replaced below — paste your unlisted embed URL into the <code>src</code> attribute where indicated.</p>
+
+          <div style="margin-top:10px;border-radius:8px;overflow:hidden;border:1px solid #e8f5ff">
+            <!-- Replace the src value with your unlisted video embed, e.g. https://www.youtube.com/embed/VIDEO_ID -->
+            <iframe width="100%" height="260" src="https://www.youtube.com/embed/REPLACE_WITH_VIDEO_ID" title="DialMaster demo" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+        </div>
+
+        <aside class="card" style="padding:14px">
+          <strong>Quick facts</strong>
+          <div style="margin-top:8px" class="muted">
+            <ul style="margin:8px 0 0 18px">
+              <li>Platform: Android (Play) — AAB upload required</li>
+              <li>Dial method: ACTION_DIAL (system dialer)</li>
+              <li>Storage: local Room DB by default; encrypted cloud backup opt-in</li>
+              <li>Monetization: ads (free) + subscriptions + coin packs</li>
+              <li>Support: <a href="mailto:support@dialmaster.in">support@dialmaster.in</a></li>
+            </ul>
+          </div>
+          <div style="margin-top:12px;font-size:13px">
+            <strong>If reviewers request more</strong>
+            <p class="muted" style="margin:6px 0 0">We can provide: APK/AAB with test credentials, Data Safety JSON, or server logs for verification upon request. Reply in the verification thread and we will attach requested artifacts.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="data-safety" class="card">
+      <h3 style="margin:0 0 8px">Data Safety — short summary</h3>
+      <p class="muted" style="margin:0 0 8px">What we collect: Google account id, email, display name for authentication; telemetry for analytics & ads; purchase tokens for subscription verification. What we do not collect/upload by default: device call audio, full contact uploads, SMS, or health data.</p>
+      <p class="muted" style="margin:0">See the full Privacy Policy and Terms linked above for complete details. The official Play Console Data Safety declarations are available on request.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h3 style="margin:0 0 8px">Contact & verification instructions</h3>
+      <p class="muted" style="margin:0 0 8px">Developer: Abhishek Rajput (ZeengoCorp)</p>
+      <p class="muted" style="margin:0 0 8px">Support email: <a href="mailto:support@dialmaster.in">support@dialmaster.in</a></p>
+      <p class="muted" style="margin:0 0 8px">If you need ownership proof: this page includes the Google verification meta tag. If reviewers prefer the HTML file method, the file <code>googlea836a67ec2477ba4.html</code> is available at the repo root.</p>
+    </section>
+
+    <footer class="muted">
+      © ZeengoCorp — DialMaster. Last updated: 2025-11-28.
+    </footer>
+  </main>
+</body>
+</html>
